@@ -78,6 +78,18 @@ terraform-azure-vm/
    cd terraform-azure-vm
    ```
 
+2. **Create a terraform.tfvars file**
+
+   To pass variable values without editing the main config, create a file named terraform.tfvars in the root directory with the following example content:
+
+   ```bash
+   resource_group_name = "secure-vm-rg"
+   location            = "westus"
+   allowed_ssh_ip      = "YOUR_PUBLIC_IPV4_ADDRESS/32"
+   ```
+
+   Terraform will automatically load this file during execution.
+
 2. **Initialize Terraform**
 
    ```bash
