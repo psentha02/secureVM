@@ -1,0 +1,28 @@
+ # Terraform state files
+*.tfstate
+*.tfstate.backup
+crash.log
+.terraform/
+.terraform.lock.hcl
+
+# Local environment variables or override files
+terraform.tfvars
+*.auto.tfvars
+
+# SSH private keys (DO NOT COMMIT YOUR PRIVATE KEYS)
+*.pem
+*.key
+*.pub
+.ssh/
+
+# Azure credentials file
+.azure/
+
+# VSCode or Cursor editor files
+.vscode/
+.idea/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
