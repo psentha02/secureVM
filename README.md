@@ -1,4 +1,3 @@
-```markdown
 # ☁️ Terraform Azure VM Provisioning Project
 
 This project demonstrates how to provision a secure Ubuntu Virtual Machine on Microsoft Azure using [Terraform](https://www.terraform.io/). It includes setting up a virtual network, subnet, network interface, network security group (NSG), and VM with SSH key authentication. It's a beginner-friendly project aimed at learning Terraform while following security best practices.
